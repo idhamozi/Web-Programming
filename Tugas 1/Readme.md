@@ -1,1 +1,1 @@
-#Week 1 - Basaic HTML
+# Week 1 - Basaic HTML + CSS
