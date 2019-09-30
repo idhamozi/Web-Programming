@@ -1,0 +1,302 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+nav{
+  width: 100%;
+  background: #00adb5;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li{
+  float: left;
+  width: 25%;
+}
+
+li a{
+  display: block;
+  color: #262626;
+}
+
+li a:hover:not(.active){
+  background-color: #393e46;
+  color: #eeee;
+  border-style: inset;
+  border-color: darkgrey;
+}
+
+a{
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.nama{
+  text-align: center;
+  margin: 0px;
+}
+
+.npm{
+  text-align: center;
+}
+
+#section1{
+  height: 700px;
+  background: #e3fdfd;
+  display: inline-block;
+  width: 100%;
+}
+
+#section2{
+  height: 700px;
+  background: #cbf1f5;
+  display: inline-block;
+  width: 100%;
+}
+
+#section3{
+  height: 700px;
+  background: #a6e3e9;
+  display: inline-block;
+  width: 100%;
+}
+
+#section4{
+  height: 350px;
+  background: #71c9ce;
+  display: inline-block;
+  width: 100%;
+}
+
+.h1p{
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.h1pe{
+  margin: 100px;
+  text-align: center;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.h1pe12{
+  text-align: center;
+}
+
+.pendidikan{
+  width: 100%;
+}
+
+.organisasi{
+  width: 100%;
+}
+
+.kontenpendidikan{
+  padding: 20px;
+  width: 100%;
+  height: 250px;
+  background-color: skyblue;
+  border-radius: 50px;
+}
+
+.kontenorganisasi{
+  padding: 20px;
+  width: 100%;
+  height: 250px;
+  background-color: skyblue;
+  border-radius: 50px;
+}
+
+.h1s{
+  margin-top: 10%;
+  text-align: center;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.h1c{
+  margin: 50px;
+  text-align: center;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.fotodiri{
+  margin-left: 5%;
+  border-radius: 50px;
+  margin-top: 10%;
+}
+
+.profilediri{
+  margin-top: 3%;
+  width: 100%;
+  height: 45%;
+  background-color: skyblue;
+  border-radius: 50px;
+}
+
+.profileteks{
+  text-align: center;
+  vertical-align: 50%;
+  line-height: 25px;
+}
+
+.copyright {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  background-color: #262626;
+  color: white;
+  text-align: center;
+}
+
+.heart{
+    color: #e25555;
+}
+
+.ig{
+  width: 100%;
+  border-radius: 50px;
+}
+
+.github{
+  width: 100%;
+  border-radius: 50px;
+}
+
+.in{
+  width: 100%;
+  border-radius: 50px;
+}
+
+.twitter{
+  width: 100%;
+  border-radius: 50px;
+}
+
+.container {
+  width: 100%;
+}
+
+.kataskill{
+  margin-left: 10%;
+}
+
+.container-skill{
+  width: 80%;
+  background-color: #ddd;
+  margin-left: 10%;
+  border-radius: 50px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border-radius: 50px;
+}
+
+/*
+@keyframes html {
+  from {
+    width: 0;
+  }to {
+    width: 60%;
+  }
+}
+
+@keyframes css {
+  from {
+    width: 0;
+  } to {
+    width: 50%;
+  }
+}
+
+@keyframes python {
+  from {
+    width: 0;
+  } to {
+    width: 70%;
+  }
+}
+
+@keyframes c {
+  from {
+    width: 0;
+  } to {
+    width: 60%;
+  }
+} */
+
+/* .html {
+  width: 60%; background-color: #4CAF50;
+  border-radius: 50px;
+  animation: html 10s ease-in-out forwards;
+}
+
+.css {
+  width: 50%; background-color: #2196F3;
+  border-radius: 50px;
+  animation: css 10s ease-in-out forwards;
+}
+
+.python {
+  width: 70%; background-color: #f44336;
+  border-radius: 50px;
+  animation: python 10s ease-in-out forwards;
+}
+
+.php {
+  width: 60%; background-color: #808080;
+  border-radius: 50px;
+  animation: c 10s ease-in-out forwards;
+} */
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+.button:hover {
+  background-color: #008CBA;
+  color: white;
+}
