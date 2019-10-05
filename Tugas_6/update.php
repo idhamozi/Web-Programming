@@ -29,7 +29,8 @@ include("connection.php");
     $result = mysqli_query(connection(), $sql);
     if($result){
 			echo "Update berhasil";
-			header("Location:http://localhost/PEMWEB/Week_5/Tugas_5/Tugas-Idham/");
+      //redirect ke halaman lain
+      header('Location: index.php?status='.$status);
 			exit();
 		}else{
 			echo "Update gagal";
